@@ -36,6 +36,15 @@
 				</section>
 			</div>
 
+			<div class="rs">
+
+				<ul>
+					<li><img src="https://png.icons8.com/color/32/000000/facebook.png"></li>
+					<li><img src="https://png.icons8.com/dusk/32/000000/instagram-new.png"></li>
+					<li><img src="https://png.icons8.com/office/40/000000/twitter.png"></li>
+				</ul>
+</div>
+
 			<?php include 'include/footer.php'?>
 		  </main>
 

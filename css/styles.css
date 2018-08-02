@@ -2,9 +2,20 @@
 /*header*/
 .header{
 	height: 100px;
-	display: flex;
 	border: 1px solid #35345B;
+	display: flex;
 
+}
+
+.menu{
+	display: flex;
+	margin: auto;
+
+}
+
+.menu p {
+	justify-content: space-around;
+	margin-right: 50px;
 }
 
 .logo{
@@ -23,12 +34,7 @@ a{
 	padding: 5px;
 }
 
-.menu{
-	display: flex;
-}
-.menu p{
-margin: auto 40px;
-}
+
 
 .icone{
 	display: none;
@@ -90,11 +96,6 @@ background: #F3F3F3;
 	justify-content: center;
 }
 
-
-.menu{
-	background:
-}
-
 /*responsivite*/
 @media (max-width: 720px) {
 .video{
@@ -149,4 +150,20 @@ background: #F3F3F3;
 	height: 60px;
 	text-align: center;
 }
+}
+
+.rs{
+
+	background: rgba(0,0,0,0.7);
+  position: fixed;
+  right: 0;
+  top: 50%;
+  width: 4em;
+  margin-top: -2.5em;
+
+
+}
+
+.rs img{
+	margin-left: -20px;
 }
